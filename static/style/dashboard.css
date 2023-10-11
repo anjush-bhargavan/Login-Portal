@@ -1,0 +1,78 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto,sans-serif;
+}
+
+body{
+background:linear-gradient(to right,rgba(37, 209, 172), rgb(241, 241, 241));
+position: relative;
+overflow-x: hidden;
+}
+
+.navbar{
+  font-family: Roboto;
+  margin-left: 15vw;
+}
+
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 140px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; 
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  
+}
+.user{
+  display: flex;
+  flex-direction: column;
+  color: rgb(65, 65, 65);
+  align-items: center;
+}
+/* .user p{
+  font-size: 1rem;
+  font-family: raleway;
+} */
+
+.sidebar .user img{
+  width: 6vw;
+}
+
+.sidebar button{
+ margin-bottom: 20px;
+}
+
+.main{
+  margin-top: 15vh;
+  margin-left: 15vw;
+  display: flex;
+  width: 80vw;
+  height: 1000px;
+  flex-wrap: wrap;
+  right: 0;
+  bottom: 0;
+  position: relative;
+  justify-content: space-around;
+}
+
+.head{
+  padding-top: 10px;
+  width: 100%;
+  margin-left: 40vw;
+}
+
+.head h3{
+  font-family: Raleway;  
+}
+
+.card{
+  margin-top: 20px;
+}
